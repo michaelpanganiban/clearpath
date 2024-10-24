@@ -19,7 +19,7 @@ jobs:
         node-version: '16' # Specify your Node.js version
 
     - name: Install dependencies
-      run: npm install
+      run: npm install --force
 
     - name: Build and export
       run: npm run deploy-staging
