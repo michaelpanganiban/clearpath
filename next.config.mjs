@@ -1,13 +1,10 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     // basePath: '/finance-landing-page',
-//     // assetPrefix: '/finance-landing-page/',
-//     output: 'export',
-// };
-
-// export default nextConfig;
-module.exports = {
-    assetPrefix: '/clearpath/',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     basePath: '/clearpath',
+    assetPrefix: '/clearpath/',
+    // output: 'export',
 };
+
+export default nextConfig;
+
   
