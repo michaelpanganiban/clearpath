@@ -2,7 +2,7 @@
 const nextConfig = {
     basePath: '/clearpath',
     assetPrefix: '/clearpath/',
-    // output: 'export',
+    output: 'export',
 };
 
 export default nextConfig;

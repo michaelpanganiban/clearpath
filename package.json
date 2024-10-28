@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
+    "export": "next export",
     "deploy-staging": "npm run build && npm run export && git add out && git commit -m 'Deploy' && git push origin staging:gh-pages"
   },
   "dependencies": {
