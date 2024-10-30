@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
-    "deploy-staging": "npm run build && git add out && git commit -m 'Deploy' && git push origin staging:gh-pages"
+    "prepare": "husky"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
