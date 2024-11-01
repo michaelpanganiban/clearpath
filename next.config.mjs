@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/clearpath',
+    // basePath: '/clearpath',
     // assetPrefix: '/clearpath/',
     output: 'export',
 };
